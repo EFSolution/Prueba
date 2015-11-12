@@ -10,12 +10,20 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            int h = prueba();
+            Console.WriteLine(h);
+            Console.ReadKey();
+        }
+
+        public static int prueba()
+        {
             var a = "";
             var i = 2;
             var l = 4;
             var r = i + l;
-            Console.WriteLine(r);
-            Console.ReadKey();
+            return r;
+
         }
+
     }
 }
