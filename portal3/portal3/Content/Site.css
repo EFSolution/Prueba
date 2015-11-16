@@ -21,3 +21,10 @@ textarea {
 .btn { background-color: #4b0082 !important; }
 
 .btn-default { background-color: #add8e6 !important;}
+
+.navbar-nav {margin: auto;
+    width: 60%;
+    padding: 50px;
+    text-align: center;
+
+}
